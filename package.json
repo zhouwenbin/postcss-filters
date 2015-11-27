@@ -1,0 +1,40 @@
+{
+  "name": "postcss-clip-path",
+  "version": "0.0.1",
+  "description": "PostCSS plugin that adds `clip-path` value from [clippy](http://bennettfeely.com/clippy/).",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "clip-path"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouwenbin/postcss-clip-path.git"
+  },
+  "author": "zhouwenbin <zwb86@qq.com>",
+  "maintainers": [
+    {
+      "name": "zhouwenbin",
+      "email": "zwb86@qq.com",
+      "web": "http://zhouwenbin.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/zhouwenbin/postcss-clip-path/issues"
+  },
+  "homepage": "https://github.com/zhouwenbin/postcss-clip-path",
+  "dependencies": {
+    "postcss": "^5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-mocha": "^2.1.3"
+  },
+  "scripts": {
+    "test": "gulp check"
+  }
+}
