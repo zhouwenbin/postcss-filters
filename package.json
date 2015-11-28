@@ -1,6 +1,6 @@
 {
   "name": "postcss-filters",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "PostCSS plugin for a collection of CSS filter combos from [filter.css](http://simurai.com/filter.css/).",
   "keywords": [
     "postcss",
