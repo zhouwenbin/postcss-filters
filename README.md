@@ -1,17 +1,17 @@
-# PostCSS clip-path
+# PostCSS filters
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-[PostCSS][PostCSS] PostCSS plugin that adds `clip-path` value from [clippy](http://bennettfeely.com/clippy/).
+[PostCSS][PostCSS] PostCSS plugin for a collection of CSS filter combos from [filter.css](http://simurai.com/filter.css/).
 
 ```css
 .foo {
-  clip-path: triangle;
+  filter: Eureka;
 }
 ```
 
 ```css
 .foo {
-  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  filter: brightness(1.6) contrast(1.1) grayscale(0) hue-rotate(0deg) invert(0.1) saturate(0.9) sepia(0);
 }
 ```
 
@@ -19,36 +19,25 @@
 
 ### Value
 
-* `triangle`
-* `trapezoid`
-* `parallelogram`
-* `rhombus`
-* `pentagon`
-* `hexagon`
-* `heptagon`
-* `octagon`
-* `nonagon`
-* `decagon`
-* `bevel`
-* `rabbet`
-* `leftArrow`
-* `rightArrow`
-* `leftPoint`
-* `rightPoint`
-* `leftChevron`
-* `rightChevron`
-* `star`
-* `cross`
-* `message`
-* `close`
-* `frame`
+* `Eureka`
+* `London`
+* `FlipFlop`
+* `Copper`
+* `LoFi`
+* `Night`
+* `Rocky`
+* `Karl`
+* `Gold`
+* `Silver`
+* `Butterfly`
+* `Introvert`
 
 --
 
 ### Usage
 
 ```js
-postcss([ require('postcss-clip-path') ])
+postcss([ require('postcss-filters') ])
 ```
 
 See [PostCSS][PostCSS] docs for examples for your environment.
@@ -59,10 +48,16 @@ See [PostCSS][PostCSS] docs for examples for your environment.
 
 MIT © [zhouwenbin](http://zhouwenbin.com)
 
-[npm-image]: https://badge.fury.io/js/postcss-clip-path.svg
-[npm-url]: https://npmjs.org/package/postcss-clip-path
-[travis-image]: https://travis-ci.org/zhouwenbin/postcss-clip-path.svg?branch=master
-[travis-url]: https://travis-ci.org/zhouwenbin/postcss-clip-path
-[daviddm-image]: https://david-dm.org/zhouwenbin/postcss-clip-path.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/zhouwenbin/postcss-clip-path
+--
+
+### Thanks
+
+[filter.css](http://simurai.com/filter.css/) 
+
+[npm-image]: https://badge.fury.io/js/postcss-filters.svg
+[npm-url]: https://npmjs.org/package/postcss-filters
+[travis-image]: https://travis-ci.org/zhouwenbin/postcss-filters.svg?branch=master
+[travis-url]: https://travis-ci.org/zhouwenbin/postcss-filters
+[daviddm-image]: https://david-dm.org/zhouwenbin/postcss-filters.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/zhouwenbin/postcss-filters
 [PostCSS]: https://github.com/postcss/postcss

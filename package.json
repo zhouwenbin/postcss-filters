@@ -1,17 +1,17 @@
 {
-  "name": "postcss-clip-path",
+  "name": "postcss-filters",
   "version": "0.0.2",
-  "description": "PostCSS plugin that adds `clip-path` value from [clippy](http://bennettfeely.com/clippy/).",
+  "description": "PostCSS plugin for a collection of CSS filter combos from [filter.css](http://simurai.com/filter.css/).",
   "keywords": [
     "postcss",
     "css",
     "postcss-plugin",
-    "clip-path"
+    "filters"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhouwenbin/postcss-clip-path.git"
+    "url": "https://github.com/zhouwenbin/postcss-filters.git"
   },
   "author": "zhouwenbin <zwb86@qq.com>",
   "maintainers": [
@@ -22,9 +22,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/zhouwenbin/postcss-clip-path/issues"
+    "url": "https://github.com/zhouwenbin/postcss-filters/issues"
   },
-  "homepage": "https://github.com/zhouwenbin/postcss-clip-path",
+  "homepage": "https://github.com/zhouwenbin/postcss-filters",
   "dependencies": {
     "postcss": "^5.0"
   },

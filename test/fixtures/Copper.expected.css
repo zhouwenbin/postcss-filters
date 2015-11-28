@@ -1,0 +1,3 @@
+.foo {
+  filter: brightness(2.4) contrast(0.8) grayscale(0) hue-rotate(0deg) invert(0.3) saturate(1) sepia(1);
+}
